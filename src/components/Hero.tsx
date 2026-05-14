@@ -1,8 +1,8 @@
 import { motion } from "motion/react";
 import { ArrowRight } from "lucide-react";
-import { buttonVariants } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
-import { PERSONAL_INFO } from "@/constants";
+import { buttonVariants } from "./ui/button";
+import { cn } from "../lib/utils";
+import { PERSONAL_INFO } from "../constants";
 
 export const Hero = () => {
   return (
