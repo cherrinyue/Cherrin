@@ -114,7 +114,7 @@ export default function App() {
       </main>
 
       <footer className="h-24 px-6 md:px-12 border-t border-slate-200/60 bg-white flex items-center justify-between text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em] relative z-10">
-        <div>© {new Date().getFullYear()} ALEX RIVERA • DESIGNED FOR INTELLIGENCE</div>
+        <div>© {new Date().getFullYear()} CHERRIN • DESIGNED FOR INTELLIGENCE</div>
         <div className="hidden md:flex space-x-8">
           <a href={PERSONAL_INFO.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-indigo-600 transition-colors">LinkedIn</a>
           <a href={PERSONAL_INFO.github} target="_blank" rel="noopener noreferrer" className="hover:text-indigo-600 transition-colors">GitHub</a>
