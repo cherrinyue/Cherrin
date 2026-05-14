@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { PERSONAL_INFO } from "../constants";
+import { PERSONAL_INFO } from "../constants.ts";
 
 const PolarBearIcon = ({ className }: { className?: string }) => (
   <svg 

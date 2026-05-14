@@ -1,8 +1,8 @@
 import { motion } from "motion/react";
 import { Mail, Linkedin, Github } from "lucide-react";
-import { buttonVariants } from "./ui/button";
-import { cn } from "../lib/utils";
-import { PERSONAL_INFO } from "../constants";
+import { buttonVariants } from "./ui/button.tsx";
+import { cn } from "../lib/utils.ts";
+import { PERSONAL_INFO } from "../constants.ts";
 
 export const Contact = () => {
   return (

@@ -1,9 +1,9 @@
 import { motion } from "motion/react";
-import { Navbar } from "./components/Navbar";
-import { Hero } from "./components/Hero";
-import { Showcase } from "./components/Showcase";
-import { Contact } from "./components/Contact";
-import { PERSONAL_INFO } from "./constants";
+import { Navbar } from "./components/Navbar.tsx";
+import { Hero } from "./components/Hero.tsx";
+import { Showcase } from "./components/Showcase.tsx";
+import { Contact } from "./components/Contact.tsx";
+import { PERSONAL_INFO } from "./constants.ts";
 
 export default function App() {
   return (

@@ -1,8 +1,8 @@
 import { motion } from "motion/react";
 import { ExternalLink } from "lucide-react";
-import { Card, CardContent, CardFooter, CardHeader } from "./ui/card";
-import { Badge } from "./ui/badge";
-import { PROJECTS } from "../constants";
+import { Card, CardContent, CardFooter, CardHeader } from "./ui/card.tsx";
+import { Badge } from "./ui/badge.tsx";
+import { PROJECTS } from "../constants.ts";
 
 export const Showcase = () => {
   return (
